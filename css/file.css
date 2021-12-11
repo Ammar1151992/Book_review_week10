@@ -1,0 +1,348 @@
+
+
+nav{
+    background-color: #AA5931;
+    list-style: none;
+}
+.container{
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+nav .nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav_content_center .link{
+    display: flex;
+    margin-top: 15px;
+}
+
+nav .nav_content_center .link li{
+    margin-left: 60px;
+    
+}
+
+nav .nav_content_center .link li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+
+.link{
+    list-style: none;
+}
+
+.nav_content .link li a.active:after,         /* grouping  */ 
+.nav_content .link li a:after{
+    content: "";
+    display: block;
+    height: 3px;
+    background-color:#0B486A ;
+    transition: width 0.5s;
+    
+}
+.nav_content .link li a.active:after{
+    width: 100%;
+}
+
+.nav_content .link li a:after{
+    width: 0;
+}
+
+.nav_content .link li a:hover::after{
+    width: 100%;
+}
+
+nav .nav_content_right{
+    margin-top: 20px;
+}
+
+.nav_content_right .btn{
+    background-color: #fff;
+    color: #0B486A;
+    font-size: 18px;
+    padding: 6px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.nav_content_right{
+    list-style: none;
+}
+
+nav .nav_content_left .logo{
+    color: #0B486A ;
+    margin-top: 8px;
+    
+}
+
+.heading{
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: #0B486A;
+    position: relative;
+}
+
+.container_main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 85%;
+    margin: auto;
+    padding: auto;
+}
+
+.heading_content{
+    display: flex;
+    padding-top: 100px;
+    color: #fff;
+}
+
+.heading_content img{
+    width: 25%;
+    height: 25%;
+    margin-top: 30px;
+}
+
+.heading_content .title{
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+
+.par{
+    font-size: 22px;
+    line-height: 35px;
+    
+}
+
+.heading_content .text_right{
+    margin-top: 25px;
+    padding-left: 150px;
+}
+
+.heading_content .text_right .title{
+    padding-left: 25px;
+}
+
+.heading_content .text_right .par{
+    padding-left: 25px;
+}
+
+.heading_content .text_right .get li a{
+    color: #D9D8D7;
+    background-color: #AA5931;
+    padding: 14px 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.get{
+    list-style: none;
+}
+
+.heading_content .text_right .get li{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+
+.heading_content .text_right .get li a{
+    text-decoration: none;
+}
+.book_father{
+    position: relative;
+}
+
+
+.book_father{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 6rem;
+    left: 0;
+    background-image: url(../images/The_review_campaign.jpg);    
+
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:hsla(0, 0%, 0%, 0.6);
+    border-top: #202731  solid 3px;
+}
+.book_father .not{
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+.book_father .not ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #D9D8D7;
+    font-size:30px;
+    letter-spacing: 10px;
+    font-weight: bold;
+}
+
+/*-------------------- */
+
+
+.view_1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.view_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.view_1 .card{
+    padding: 0 30px;
+    padding-top: 10px;
+    background-color: #F6F2D4;
+    border-radius: 10px;
+}
+
+.view_2 .card{
+    padding: 0 30px;
+    padding-top: 10px;
+    background-color: #F6F2D4;
+    border-radius: 10px;
+}
+
+.view_1 .card_1 .card .card-text{
+    padding-bottom: 25px;
+}
+
+.view_1 .card_2 .card .card-text{
+    padding-bottom: 25px;
+}
+
+.view_2 .card_4 .card .card-text{
+    padding-bottom: 103px;
+}
+
+.view_2 .card_5 .card .card-text{
+    padding-bottom: 100px;
+}
+
+.view_2 .card_6 .card .card-text{
+    padding-bottom: 75px;
+}
+
+.lik{
+    text-decoration: none;
+    color: #D9D8D7;
+    background-color: #AA5931;
+    padding: 10px 10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.review_title{
+    margin: 100px 0;
+    color:#F2C744;
+    text-align: center;
+    font-size: 50px;
+}
+
+.review h1.review_title:after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color:#F2C744 ;
+}
+.review{
+    border-bottom: black solid 3px;
+    padding-bottom: 100px;
+}
+
+
+.club-class-abdu {
+    background-color: #0B486A;
+}
+
+#club {
+    display: flex;
+    background-color: #0B486A;
+    padding: 30px;
+    padding-left: 50px;
+}
+
+#club-left a {
+    text-decoration: none;
+}
+
+#club-left button {
+    background-color: #AA5931;
+    border-radius: 12px;
+    transition: 0.6s;
+}
+
+.club-right {
+    justify-content: end;
+}
+
+#mymodal {
+    background-color: #0B486A;
+}
+
+#button {
+    width: 100px;
+    height: 50px;
+    margin-left: 5px;
+}
+
+#button:hover {
+    background-color: rgb(21, 18, 68);
+    color: #0B486A;
+}
+
+.right-club img {
+    border-radius: 0px 30px 0px 30px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.club-class-abdu h3:hover {
+    text-decoration: white;
+}
+
+.modal label {
+    text-shadow: black;
+    font-weight: 600;
+}
+
+.modal-backdrop {
+    background-color: #AA5931;
+}
+
+@media (max-width:720px) {
+    #club {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.club-left .text-light{
+    color: #F2C744;
+}
+
+
